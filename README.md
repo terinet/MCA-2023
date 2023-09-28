@@ -1,2 +1,3 @@
 # MCA
-[uyhfgv](week1.md)
+[week1](week1.md)
+[week2](week1.md)
