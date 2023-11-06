@@ -1,3 +1,4 @@
+ [week2](week2.md)
 The theme for my dataset is Ludovico Einaudi's piece called Underwater
 
 Challenges of working with music-related data:
