@@ -9,12 +9,12 @@ tei-teiHeader {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
+    background-color: #ECECDE;
   }
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #41572F;
     overflow: hidden;
   }
   
@@ -30,19 +30,19 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #41572F;
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #e67e22;
+    background-color: #2F5557;
     color: white;
   }
 
   /* Add styling to h1 headings*/
     h1 {
-        color: #e67e22;
+        color: #2F5557;
         text-align: center;
         font-size: 45px;
         font-weight: 100;  
@@ -53,7 +53,7 @@ body {
     
   /* Add styling to h2 headings*/
   h2 {
-    color: indigo;
+    color: #2C524D;
     font-weight: 100;
     padding-top: 20px;
     padding-left: 40px;
@@ -62,7 +62,7 @@ body {
 
   /* Add styling to h3 headings*/
   h3 {
-    color: #006400;
+    color: #2C524D;
     font-weight: 100;
     padding-top: 20px;
     padding-left: 40px;
