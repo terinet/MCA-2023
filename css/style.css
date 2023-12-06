@@ -9,7 +9,7 @@ tei-teiHeader {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ECECDE;
+    background-color: white;
   }
 
 /* Add a black background color to the top navigation */
@@ -55,24 +55,13 @@ body {
   h2 {
     color: #2C524D;
     font-weight: 100;
-    padding-top: 20px;
-    padding-left: 40px;
 }
 
 
   /* Add styling to h3 headings*/
   h3 {
     color: #2C524D;
-    font-weight: 100;
-    padding-top: 20px;
-    padding-left: 40px;
+    font-weight: 75;
 }
 
 
-  /* Add padding around paragraphs*/
-  p {
-    padding-top: 5px;
-    padding-right: 80px;
-    padding-bottom: 5px;
-    padding-left: 80px;
-}
