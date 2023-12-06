@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!--- Banner -->
+
+
+    <header class="banner">
+        <h1>MCA-2023</h1>
+    </header>
+    <div class="topnav">
+        <a href="week1.html">WEEK 1</a>
+        <a href="week2.html">WEEK 2</a>
+        <a class="active" href="week3.html">WEEK 3</a>
+        <a href="week4.html">WEEK 4</a>
+        <a href="week5.html">WEEK 5</a>
+        <a href="week6.html">WEEK 6</a>
+        <a href="week7.html">WEEK 7</a>
+        <a href="week8.html">WEEK 8</a>
+        <a href="week9.html">WEEK 9</a>
+        <a href="week10.html">WEEK 10</a>
+    </div>
+    <h2>Verovio</h2>
+  <script type="module">
+            import 'https://www.verovio.org/javascript/app/verovio-app.js';
+
+            const options = {
+                defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+                defaultZoom: 3, // 0-7, default is 4
+                enableResponsive: true, // default is true
+                enableDocument: true // default is true
+            }
+            var file = "data/underwater1.mei";
+            const app = new Verovio.App(document.getElementById("app"), options);
+            fetch(file)
+                .then(function(response) {
+                    return response.text();
+                })
+                .then(function(text) {
+                    app.loadData(text);
+                });
+        </script>
+
+    <hr>
+    <h2>Differences between MusicXML and MEI</h2>
+    <p>1) Metadata in MusicXML and MEI:
+   - MusicXML: Uses separate sections for metadata, such as title, composer, and instrumentation. The information is distributed across different elements, making it somewhat compartmentalized.
+   - MEI: Consolidates metadata in its `<meiHead>` element. This provides a more centralized approach, including more detailed sections and references for authorities. This results in a multi-level information display, which may appear more complex compared to MusicXML.
+
+2) Representation of Clef in MusicXML and MEI:
+   - MusicXML: Utilizes the `<clef>` tag to represent the clef element. Clef type and placement line are distinguished using the attributes `<sign>` and `<line>`.
+   - MEI: Also uses the `<clef>` tag for representing the clef element. However, MusicXML's distinction between clef type and placement line using `<sign>` and `<line>` attributes is not replicated in MEI.
+
+3) Representation of Key in MusicXML and MEI:
+   - MusicXML: Represents the key through a `<key>` element, which is placed within the 'attributes' parent element. The information is relatively straightforward.
+   - MEI: Represents the key through a more detailed `<keySig>` element. This element offers a broader array of child elements, providing a more extensive and nuanced representation of key information. Additionally, `<keySig>` can be associated with various attributes, contributing to a more flexible and comprehensive structure.</p>
+ <hr>
+  <h2>Challenges encountered</h2>
+<p> I had some issues working with OMR software, particularly with incorrect time signatures, articulations, and note accuracy, as well as some information about my piece went missing (name, composer)
+</p>
+</body>
+
+</html>
+
