@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!--- Banner -->
+
+
+    <header class="banner">
+        <h1>MCA-2023</h1>
+    </header>
+    <div class="topnav">
+        <a href="week1.html">WEEK 1</a>
+        <a href="week2.html">WEEK 2</a>
+        <a href="week3.html">WEEK 3</a>
+        <a href="week4.html">WEEK 4</a>
+        <a href="week5.html">WEEK 5</a>
+        <a href="week7.html">WEEK 7</a>
+        <a class="active" href="week8.html">WEEK 8</a>
+        <a href="week9.html">WEEK 9</a>
+        <a href="week10.html">WEEK 10</a>
+    </div>
+    <h2><b>My audio</b></h2>
+    <p>As I only have one track, I split it into three equal pieces</p>
+     <p>Track 1 - Ludovico Einaudi from 0:00 to 1:18 </p>
+        <audio controls>
+            <source src="data/pt1_LudovicoEinaudi–Underwater.com].mp3" type="audio/mpeg">
+        </audio>
+        <p>Track 2 - Ludovico Einaudi from 1:18 to 2:37 </p>
+        <audio controls>
+            <source src="data/pt2_LudovicoEinaudi–Underwater.com].mp3" type="audio/mpeg">
+        </audio>
+        <p>Track 3 - Ludovico Einaudi from 2:37 to 3:55</p>
+        <audio controls>
+            <source src="data/pt3_LudovicoEinaudi–Underwater.com].mp3" type="audio/mpeg">
+        </audio>
+   <hr>
+   <h2><b>Metadata</b></h2>
+  <p>Because essentially I have one track (even tho it is split into 3) I believe that medatada for  them is going to be the same</p>
+  <p> Title - Underwater
+<br>Artist - Ludovico Einaudi
+<br>Composer - Ludovico Einaudi
+<br>Copyright info (if any) - © Ludovico Einaudi
+<br>Genre - Classical
+<br>Source - <a href="https://youtu.be/jIsrJq15Yeg?si=anCmAL5gqRguxrSv">youtube link</a>
+<br>File/audio format - MP3
+<br>Number of channels - 2 (Stereo)
+<br>Sample rate - 44.1kHz
+<br>Bits per second -  136
+<br>Duration - 3:55 (full song); ~1:18(each of three pieces)
+  </p>
+  <hr>
+   <h2><b>Audio analysis</b></h2>
+  <h3>Track 1</h3>
+        <p>Waveform:</p>
+        <img src="data/pt1_musictrack.png" >
+        <p>Spectrogram:</p>
+        <img src="data/pt1_week8_spectro.png" >
+        <h3>Track 2</h3>
+        <p>Waveform:</p>
+        <img src="data/pt2_musictrack.png" >
+        <p>Spectrogram:</p>
+        <img src="data/pt2_week8_spectro.png" >
+        <h3>Track 3</h3>
+        <p>Waveform:</p>
+        <img src="data/pt3_musictrack.png" >
+        <p>Spectrogram:</p>
+        <img src="data/pt1_week8_spectro.png" >
+
+        <hr>
+   <h2><b>Time-frequency analysis vs waveform-based analysis</b></h2>
+<p>Time-frequency analysis is more beneficial than waveform-based analysis for understanding musical data because it reveals how different frequencies in a sound change over time. Unlike waveforms that mix everything together, time-frequency analysis breaks down a sound into its frequency parts across different time intervals. This is helpful for understanding musical signals that change, such as varying pitches or dynamic patterns. Visual outputs of this analysis, like spectrograms, show when events happen in a musical piece and how its frequencies shift over time. In music processing, time-frequency analysis is valuable for capturing details that might be missed when just looking at the overall sound at once.</p>
+<p>Waveform analysis does not provide a good representation of the frequency changes over time. If we look at Track 1, the spectrogram offers a much more accurate picture of how the frequencies variations.</p>
+</body>
+
+</html>
